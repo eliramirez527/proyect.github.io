@@ -1,0 +1,45 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    }
+    .flex-container>div{
+        height: 1000px;
+        width: 100%;
+        border: 5px solid #fff;
+    }
+    .flex-container > .tre1{
+        background: url(../portada/ima.jpeg);
+    }
+    .flex-container > .tre2{
+        background: url(../portada/trek.jpg);
+    }
+    .flex-container > .tre3{
+        background: url(../portada/trek2.jpg);
+    }
+    .flex-container > .tre4{
+        background: url(../portada/trek1.jpg);
+    }
+    @media only screen and (max-width: 1000px) {
+        .flex-container {
+            flex-wrap: wrap;
+        }
+    }
+        
+        h1{
+        color: darkgreen;
+        font-family:fantasy;
+    }
+    .home-link {
+        display: inline-block;
+        color: #000;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+      .home-link i {
+        margin-right: 5px;
+      }
+      
+    

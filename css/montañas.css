@@ -1,0 +1,44 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    }
+    .flex-container>div{
+        height: 1000px;
+        width: 100%;
+        border: 5px solid #fff;
+    }
+    .flex-container > .Montana1{
+        background: url(../Quitasol/quita.jpg);
+    }
+    .flex-container > .Montana2{
+        background: url(../Quitasol/20191229_103628.jpg);
+    }
+    .flex-container > .Montana3{
+        background: url(../Quitasol/mont2.jpeg);
+    }
+    .flex-container > .Montana4{
+        background: url(../Quitasol/can.jpg);
+    }
+    @media only screen and (max-width: 1000px) {
+        .flex-container {
+            flex-wrap: wrap;
+        }
+    }
+    h1{
+        color: darkgreen;
+        font-family:fantasy;
+    }
+    
+    .home-link {
+        display: inline-block;
+        color: #000;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+      .home-link i {
+        margin-right: 5px;
+      }
+      

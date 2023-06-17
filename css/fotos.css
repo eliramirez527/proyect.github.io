@@ -1,0 +1,47 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    }
+    .flex-container>div{
+        height: 1000px;
+        width: 100%;
+        border: 5px solid #fff;
+    }
+    .flex-container > .fot1{
+        background: url(../Quitasol/fot1.jpg);
+    }
+    .flex-container > .fot2{
+        background: url(../Quitasol/FOT4.jpg);
+    }
+    .flex-container > .fot3{
+        background: url(../Quitasol/FOT3.jpg);
+    }
+    .flex-container > .fot4{
+        background: url(../Quitasol/fot5.jpg);
+        
+    }
+    
+    @media only screen and (max-width: 1000px){
+        .flex-container{
+            flex-wrap: wrap;
+        }
+    }
+    h1{
+        color: darkgreen;
+        font-family:fantasy;
+    }
+    .home-link {
+        display: inline-block;
+        color: #000;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+      .home-link i {
+        margin-right: 5px;
+      }
+      
+    
+    

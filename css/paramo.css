@@ -1,0 +1,45 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    }
+    .flex-container>div{
+        height: 1000px;
+        width: 100%;
+        border: 5px solid #fff;
+    }
+    .flex-container > .par1{
+        background: url(../Paramo/param.jpg);
+    }
+    .flex-container > .par2{
+        background: url(../Paramo/FB_IMG_1595438568184.jpg);
+    }
+    .flex-container > .par3{
+        background: url(../Paramo/colombia.jpg);
+    }
+    .flex-container > .par4{
+        background: url(../Paramo/parm5.jpg);
+    }
+    @media only screen and (max-width: 1000px){
+        .flex-container{
+            flex-wrap: wrap;
+        }
+    }
+    h1{
+        color: darkgreen;
+        font-family:fantasy;
+    }
+    .home-link {
+        display: inline-block;
+        color: #000;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+      .home-link i {
+        margin-right: 5px;
+      }
+      
+    
+    
